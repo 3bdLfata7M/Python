@@ -25,6 +25,9 @@ def calc():
     anotherOperation = input("Another Operation : yes or No ? ")
     if anotherOperation == "yes" or anotherOperation == "YES" :
         calc()
+    else:
+        exit()
+    
     
 
     
