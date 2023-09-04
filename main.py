@@ -22,7 +22,7 @@ def calc():
 
     print(result)
 
-    anotherOperation = input("Another Operation : yes or No ? ")
+    anotherOperation = input("Another Operation : yes or exit ? ")
     if anotherOperation == "yes" or anotherOperation == "YES" :
         calc()
     else:
